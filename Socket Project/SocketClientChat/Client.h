@@ -37,7 +37,7 @@ private:
     QPushButton *sendButton;
 
     QTextEdit *chatText;
-    QListWidget *usersList;
+
 
     // Core
     class ClientCore* core;

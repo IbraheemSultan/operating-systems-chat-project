@@ -119,5 +119,5 @@ Thank you to everyone who contributed to this project:
 - Ibraheem Mohammed — Leader
 - Mahmoud Medhat
 - Tarek Mostafa
-- Dr. Waffa — "Doctor I will create project for you"
+- Dr. Waffa Samy — "Doctor I will create project for you"
 

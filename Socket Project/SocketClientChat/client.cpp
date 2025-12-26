@@ -36,7 +36,7 @@ Client::Client(QWidget *parent) : QWidget(parent)
     // Chat & Users
     chatText = new QTextEdit();
     chatText->setReadOnly(true);
-    usersList = new QListWidget();
+    
 
     // Layout setup
     QGridLayout *topLayout = new QGridLayout();
@@ -55,12 +55,9 @@ Client::Client(QWidget *parent) : QWidget(parent)
     chatBoxLayout->addWidget(chatLabel);
     chatBoxLayout->addWidget(chatText);
 
-    QVBoxLayout *usersBoxLayout = new QVBoxLayout();
-    usersBoxLayout->addWidget(usersLabel);
-    usersBoxLayout->addWidget(usersList);
 
     chatLayout->addLayout(chatBoxLayout, 3);
-    chatLayout->addLayout(usersBoxLayout, 1);
+    
 
     QHBoxLayout *messageLayout = new QHBoxLayout();
     messageLayout->addWidget(messageLabel);
